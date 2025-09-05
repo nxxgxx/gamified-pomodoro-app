@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Meta Information -->
+    <title>Pokedoro</title>
+
+    <meta name="theme-color" content="#ffffff" />
+
+    <link rel="icon" href="" type="image/icon type" />
+
+    <link rel="apple-touch-icon" sizes="75x75" href="" />
+
+    <!-- Social Media Previews -->
+    <meta property="og:title" content="Pokedoro" />
+    <meta property="og:description" content="Productivity app" />
+    <!-- TODO -->
+    <meta property="og:image" content="" />
+    <meta property="og:url" content="" />
+
+    <!-- SEO Stuff -->
+    <meta
+      name="description"
+      content="A productivity app with pokemon as the theme."
+    />
+    <meta name="keywords" content="pokemon, pokedoro, pomodoro, productivity" />
+
+    <!-- LINKS -->
+    <!-- Style Sheets -->
+    <link rel="stylesheet" href="style/reset.css" />
+    <link rel="stylesheet" href="style/normalize.css" />
+    <link rel="stylesheet" href="style/style.css" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=VT323&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="background-tile">
+    <header
+      class="flex-row space-between pad-x-48 pad-y-20 black-transparent-700"
+    >
+      <img
+        src="../src/assets/visuals/pokedoro_img_logo.svg"
+        alt=""
+        class="logo clickable"
+      />
+      <nav>
+        <ul class="flex-row gap-40 align-center">
+          <li><button class="btn-outline">Login</button></li>
+          <li><button class="btn-filled green-800">Create Account</button></li>
+        </ul>
+      </nav>
+    </header>
+
+    <h1>header 1</h1>
+    <h2>header 2</h2>
+    <h3>header 3</h3>
+    <h4>header 4</h4>
+    <h5>header 5</h5>
+    <h6>header 6</h6>
+    <p class="xs">paragraph xs</p>
+    <p>paragraph</p>
+    <p class="xl">paragraph xl</p>
+
+    <p>paragraph with <a href="#">blank link</a></p>
+    <p class="timer">01:34</p>
+
+    <button>Create Account <a href="#">With link</a></button>
+    <button class="xl">Button XL</button>
+    <button class="btn-filled cyan-800">Button Filled</button>
+    <button class="btn-outline">Outline</button>
+    <button class="btn-unfilled">None</button>
+    <button class="btn-filled green-800">Button Filled</button>
+    <div class="img-container radial">
+      <img
+        src="../src/assets/visuals/pokedoro_artwork_pikachu_train.png"
+        alt=""
+      />
+    </div>
+
+    <button
+      class="pokemon-pill gradient-green pad-x-4 pad-y-4 radius-4 text-shadow clickable"
+    >
+      Uncommon
+      <img
+        src="../src/assets/visuals/pokedoro_icon_angle_down.svg"
+        alt=""
+        class="icon"
+      />
+    </button>
+    <div>
+      <img src="" alt="" />
+    </div>
+    <img
+      src="../src/assets//visuals/pokedoro_icon_back.svg"
+      class="icon dark"
+      alt="back button"
+    />
+    <img
+      src="../src/assets//visuals/pokedoro_icon_back.svg"
+      class="icon light clickable"
+      alt="back button"
+    />
+    <form action="/action_page.php">
+      <label for="fname">First name:</label>
+      <input
+        type="text"
+        id="fname"
+        name="fname"
+        placeholder="trainer@gmail.com"
+      /><br /><br />
+      <label for="lname">Last name:</label>
+      <input type="text" id="lname" name="lname" /><br /><br />
+      <input type="submit" value="Submit" />
+
+      <label class="custom-checkbox light">
+        <input type="checkbox" id="agree" />
+        <span class="checkmark"></span>
+        I agree to the light terms
+      </label>
+
+      <label class="custom-checkbox dark">
+        <input type="checkbox" id="agree" />
+        <span class="checkmark"></span>
+        I agree to the dark terms
+      </label>
+    </form>
+
+    <footer>
+      <p>&copy; 2025 Pokedoro</p>
+    </footer>
+  </body>
+</html>

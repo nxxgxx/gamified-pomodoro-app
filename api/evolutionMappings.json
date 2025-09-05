@@ -1,0 +1,386 @@
+{
+  "bulbasaur": {
+    "next": "ivysaur",
+    "level": 100
+  },
+  "ivysaur": {
+    "next": "venusaur",
+    "level": 200
+  },
+  "charmander": {
+    "next": "charmeleon",
+    "level": 100
+  },
+  "charmeleon": {
+    "next": "charizard",
+    "level": 200
+  },
+  "squirtle": {
+    "next": "wartortle",
+    "level": 100
+  },
+  "wartortle": {
+    "next": "blastoise",
+    "level": 200
+  },
+  "caterpie": {
+    "next": "metapod",
+    "level": 100
+  },
+  "metapod": {
+    "next": "butterfree",
+    "level": 200
+  },
+  "weedle": {
+    "next": "kakuna",
+    "level": 100
+  },
+  "kakuna": {
+    "next": "beedrill",
+    "level": 200
+  },
+  "pidgey": {
+    "next": "pidgeotto",
+    "level": 100
+  },
+  "pidgeotto": {
+    "next": "pidgeot",
+    "level": 200
+  },
+  "rattata": {
+    "next": "raticate",
+    "level": 100
+  },
+  "spearow": {
+    "next": "fearow",
+    "level": 100
+  },
+  "ekans": {
+    "next": "arbok",
+    "level": 100
+  },
+  "pichu": {
+    "next": "pikachu",
+    "level": 100
+  },
+  "pikachu": {
+    "next": "raichu",
+    "level": 200
+  },
+  "sandshrew": {
+    "next": "sandslash",
+    "level": 100
+  },
+  "nidoran-f": {
+    "next": "nidorina",
+    "level": 100
+  },
+  "nidorina": {
+    "next": "nidoqueen",
+    "level": 200
+  },
+  "nidoran-m": {
+    "next": "nidorino",
+    "level": 100
+  },
+  "nidorino": {
+    "next": "nidoking",
+    "level": 200
+  },
+  "cleffa": {
+    "next": "clefairy",
+    "level": 100
+  },
+  "clefairy": {
+    "next": "clefable",
+    "level": 200
+  },
+  "vulpix": {
+    "next": "ninetales",
+    "level": 100
+  },
+  "igglybuff": {
+    "next": "jigglypuff",
+    "level": 100
+  },
+  "jigglypuff": {
+    "next": "wigglytuff",
+    "level": 200
+  },
+  "zubat": {
+    "next": "golbat",
+    "level": 100
+  },
+  "golbat": {
+    "next": "crobat",
+    "level": 200
+  },
+  "oddish": {
+    "next": "gloom",
+    "level": 100
+  },
+  "gloom": {
+    "next": "vileplume",
+    "level": 200
+  },
+  "paras": {
+    "next": "parasect",
+    "level": 100
+  },
+  "venonat": {
+    "next": "venomoth",
+    "level": 100
+  },
+  "diglett": {
+    "next": "dugtrio",
+    "level": 100
+  },
+  "meowth": {
+    "next": "persian",
+    "level": 100
+  },
+  "psyduck": {
+    "next": "golduck",
+    "level": 100
+  },
+  "mankey": {
+    "next": "primeape",
+    "level": 100
+  },
+  "primeape": {
+    "next": "annihilape",
+    "level": 200
+  },
+  "growlithe": {
+    "next": "arcanine",
+    "level": 100
+  },
+  "poliwag": {
+    "next": "poliwhirl",
+    "level": 100
+  },
+  "poliwhirl": {
+    "next": "poliwrath",
+    "level": 200
+  },
+  "abra": {
+    "next": "kadabra",
+    "level": 100
+  },
+  "kadabra": {
+    "next": "alakazam",
+    "level": 200
+  },
+  "machop": {
+    "next": "machoke",
+    "level": 100
+  },
+  "machoke": {
+    "next": "machamp",
+    "level": 200
+  },
+  "bellsprout": {
+    "next": "weepinbell",
+    "level": 100
+  },
+  "weepinbell": {
+    "next": "victreebel",
+    "level": 200
+  },
+  "tentacool": {
+    "next": "tentacruel",
+    "level": 100
+  },
+  "geodude": {
+    "next": "graveler",
+    "level": 100
+  },
+  "graveler": {
+    "next": "golem",
+    "level": 200
+  },
+  "ponyta": {
+    "next": "rapidash",
+    "level": 100
+  },
+  "slowpoke": {
+    "next": "slowbro",
+    "level": 100
+  },
+  "magnemite": {
+    "next": "magneton",
+    "level": 100
+  },
+  "magneton": {
+    "next": "magnezone",
+    "level": 200
+  },
+  "farfetchd": {
+    "next": "sirfetchd",
+    "level": 100
+  },
+  "doduo": {
+    "next": "dodrio",
+    "level": 100
+  },
+  "seel": {
+    "next": "dewgong",
+    "level": 100
+  },
+  "grimer": {
+    "next": "muk",
+    "level": 100
+  },
+  "shellder": {
+    "next": "cloyster",
+    "level": 100
+  },
+  "gastly": {
+    "next": "haunter",
+    "level": 100
+  },
+  "haunter": {
+    "next": "gengar",
+    "level": 200
+  },
+  "onix": {
+    "next": "steelix",
+    "level": 100
+  },
+  "drowzee": {
+    "next": "hypno",
+    "level": 100
+  },
+  "krabby": {
+    "next": "kingler",
+    "level": 100
+  },
+  "voltorb": {
+    "next": "electrode",
+    "level": 100
+  },
+  "exeggcute": {
+    "next": "exeggutor",
+    "level": 100
+  },
+  "cubone": {
+    "next": "marowak",
+    "level": 100
+  },
+  "tyrogue": {
+    "next": "hitmonlee",
+    "level": 100
+  },
+  "lickitung": {
+    "next": "lickilicky",
+    "level": 100
+  },
+  "koffing": {
+    "next": "weezing",
+    "level": 100
+  },
+  "rhyhorn": {
+    "next": "rhydon",
+    "level": 100
+  },
+  "rhydon": {
+    "next": "rhyperior",
+    "level": 200
+  },
+  "happiny": {
+    "next": "chansey",
+    "level": 100
+  },
+  "chansey": {
+    "next": "blissey",
+    "level": 200
+  },
+  "tangela": {
+    "next": "tangrowth",
+    "level": 100
+  },
+  "horsea": {
+    "next": "seadra",
+    "level": 100
+  },
+  "seadra": {
+    "next": "kingdra",
+    "level": 200
+  },
+  "goldeen": {
+    "next": "seaking",
+    "level": 100
+  },
+  "staryu": {
+    "next": "starmie",
+    "level": 100
+  },
+  "mime-jr": {
+    "next": "mr-mime",
+    "level": 100
+  },
+  "mr-mime": {
+    "next": "mr-rime",
+    "level": 200
+  },
+  "scyther": {
+    "next": "scizor",
+    "level": 100
+  },
+  "smoochum": {
+    "next": "jynx",
+    "level": 100
+  },
+  "elekid": {
+    "next": "electabuzz",
+    "level": 100
+  },
+  "electabuzz": {
+    "next": "electivire",
+    "level": 200
+  },
+  "magby": {
+    "next": "magmar",
+    "level": 100
+  },
+  "magmar": {
+    "next": "magmortar",
+    "level": 200
+  },
+  "magikarp": {
+    "next": "gyarados",
+    "level": 100
+  },
+  "eevee": {
+    "next": "vaporeon",
+    "level": 100
+  },
+  "porygon": {
+    "next": "porygon2",
+    "level": 100
+  },
+  "porygon2": {
+    "next": "porygon-z",
+    "level": 200
+  },
+  "omanyte": {
+    "next": "omastar",
+    "level": 100
+  },
+  "kabuto": {
+    "next": "kabutops",
+    "level": 100
+  },
+  "munchlax": {
+    "next": "snorlax",
+    "level": 100
+  },
+  "dratini": {
+    "next": "dragonair",
+    "level": 100
+  },
+  "dragonair": {
+    "next": "dragonite",
+    "level": 200
+  }
+}

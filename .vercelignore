@@ -1,0 +1,6 @@
+api/coverage
+**/coverage
+**/lcov-report
+**/*.test.js
+**/*.test.jsx
+**/__tests__/

@@ -1,0 +1,82 @@
+/* Resets all styling done via HTML to start from scratch */
+/*
+  ========================================
+  Style Reset START
+  ========================================
+*/
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 0;
+}
+
+html {
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  font: inherit;
+  margin: 0;
+  line-height: 1;
+}
+
+img {
+  border-style: none;
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+main,
+section,
+article,
+aside,
+footer,
+header,
+nav,
+figure {
+  display: block;
+}
+
+a {
+  background-color: transparent;
+  text-decoration: none;
+  color: inherit;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font: inherit;
+  line-height: 1.15;
+  margin: 0;
+  border: none;
+  background: none;
+  padding: 0;
+}
+
+[hidden] {
+  display: none;
+}
+
+/*
+  ========================================
+  Style Reset END
+  ========================================
+*/

@@ -1,0 +1,1306 @@
+@import url("https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=VT323&display=swap");
+
+/*
+  ========================================
+  GRID
+  ========================================
+*/
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/*
+  ========================================
+  TEXT COLOR
+  ========================================
+*/
+.white-100-text *,
+.white-100-text.white * {
+  color: #ffffff;
+}
+
+.black-900-text * {
+  color: #000000;
+}
+/*
+  ========================================
+  BACKGROUND COLOR
+  ========================================
+*/
+html {
+  background-image: url("../assets/visuals/pokedoro_image_background_tile.png");
+  background-repeat: repeat;
+  background-size: 50%;
+  background-position: center;
+}
+
+/* WHITE */
+.white-100,
+.sprite-container.selected {
+  background-color: #ffffff;
+}
+.white-300 {
+  background-color: #cbcbcb;
+}
+.white-400 {
+  background-color: #919498;
+}
+.white-transparent-100 {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+/* BLACK */
+
+.black-800 {
+  background-color: #121242;
+}
+
+.black-transparent-900 {
+  background-color: rgba(5, 5, 35, 0.8);
+}
+
+.black-transparent-700 {
+  background-color: rgba(39, 39, 92, 0.8);
+}
+
+.black-transparent-900.clickable:hover {
+  background-color: rgba(5, 5, 35, 0.6);
+  transition: background-color 0.3s;
+}
+/* gray */
+.gray-200 {
+  background-color: #d2d7e1;
+}
+.gray-400 {
+  background-color: #b4b8c3;
+}
+.gray-600 {
+  background-color: #878c9a;
+}
+.gray-800 {
+  background-color: #545863;
+}
+
+/* WHITE */
+.whitea-200 {
+  background-color: #e5f2f4;
+}
+.whitea-400 {
+  background-color: #d5e0e3;
+}
+.whitea-600 {
+  background-color: #bbc7ca;
+}
+.whitea-800 {
+  background-color: #a0aab0;
+}
+
+/* BLACK */
+.blacka-200 {
+  background-color: #bfbfcf;
+}
+.blacka-400 {
+  background-color: #9d9db2;
+}
+.blacka-600 {
+  background-color: #6e6e84;
+}
+.blacka-800 {
+  background-color: #444450;
+}
+
+/* PINK */
+.pink-200 {
+  background-color: #f0bcce;
+}
+.pink-300 {
+  background-color: #e7a2b9;
+}
+.pink-400 {
+  background-color: #dd8aa0;
+}
+.pink-500 {
+  background-color: #d6798e;
+}
+.pink-600 {
+  background-color: #c96175;
+}
+.pink-700 {
+  background-color: #b74451;
+}
+.pink-800 {
+  background-color: #9a3133;
+}
+
+/* RED */
+.red-200 {
+  background-color: #f0c4bc;
+}
+.red-300 {
+  background-color: #e7ada2;
+}
+.red-400 {
+  background-color: #dd9e8a;
+}
+.red-500 {
+  background-color: #d69379;
+}
+.red-600 {
+  background-color: #c98161;
+}
+.red-700 {
+  background-color: #b77044;
+}
+.red-800 {
+  background-color: #9a6331;
+}
+
+/* ORANGE */
+.orange-200 {
+  background-color: #f0debc;
+}
+.orange-300 {
+  background-color: #e7d0a2;
+}
+.orange-400 {
+  background-color: #ddc78a;
+}
+.orange-500 {
+  background-color: #d6c179;
+}
+.orange-600 {
+  background-color: #c9b561;
+}
+.orange-700 {
+  background-color: #b7aa44;
+}
+.orange-800 {
+  background-color: #9a9831;
+}
+
+/* YELLOW */
+.yellow-200 {
+  background-color: #e8f0bc;
+}
+.yellow-300 {
+  background-color: #dce7a2;
+}
+.yellow-400 {
+  background-color: #cadd8a;
+}
+.yellow-500 {
+  background-color: #bcd679;
+}
+.yellow-600 {
+  background-color: #a9c961;
+}
+.yellow-700 {
+  background-color: #8bb744;
+}
+.yellow-800 {
+  background-color: #679a31;
+}
+
+/* YELLOW GREEN */
+.yellow-green-200 {
+  background-color: #cef0bc;
+}
+.yellow-green-300 {
+  background-color: #b9e7a2;
+}
+.yellow-green-400 {
+  background-color: #a0dd8a;
+}
+.yellow-green-500 {
+  background-color: #8ed679;
+}
+.yellow-green-600 {
+  background-color: #75c961;
+}
+.yellow-green-700 {
+  background-color: #51b744;
+}
+.yellow-green-800 {
+  background-color: #339a31;
+}
+
+/* GREEN */
+.green-200 {
+  background-color: #bcf0c4;
+}
+.green-300 {
+  background-color: #a2e7ae;
+}
+.green-400 {
+  background-color: #8add9d;
+}
+.green-500 {
+  background-color: #79d693;
+}
+.green-600 {
+  background-color: #61c981;
+}
+.green-700 {
+  background-color: #44b771;
+}
+.green-800 {
+  background-color: #319a64;
+}
+
+/* LIME */
+.lime-200 {
+  background-color: #bcf0de;
+}
+.lime-300 {
+  background-color: #a2e7d1;
+}
+.lime-400 {
+  background-color: #8addc7;
+}
+.lime-500 {
+  background-color: #79d6c1;
+}
+.lime-600 {
+  background-color: #61c9b5;
+}
+.lime-700 {
+  background-color: #44b7ab;
+}
+.lime-800 {
+  background-color: #319a99;
+}
+
+/* CYAN */
+.cyan-200 {
+  background-color: #bce8f0;
+}
+.cyan-300 {
+  background-color: #a2dbe7;
+}
+.cyan-400 {
+  background-color: #8acadd;
+}
+.cyan-500 {
+  background-color: #79bdd6;
+}
+.cyan-600 {
+  background-color: #61a9c9;
+}
+.cyan-700 {
+  background-color: #4489b7;
+}
+.cyan-800 {
+  background-color: #31669a;
+}
+
+/* BLUE */
+.blue-200 {
+  background-color: #bccef0;
+}
+.blue-300 {
+  background-color: #a2b8e7;
+}
+.blue-400 {
+  background-color: #8aa0dd;
+}
+.blue-500 {
+  background-color: #798ed6;
+}
+.blue-600 {
+  background-color: #6175c9;
+}
+.blue-700 {
+  background-color: #4450b7;
+}
+.blue-800 {
+  background-color: #34359d;
+}
+
+/* PERIWINKLE */
+.periwinkle-200 {
+  background-color: #c4bcf0;
+}
+.periwinkle-300 {
+  background-color: #afa2e7;
+}
+.periwinkle-400 {
+  background-color: #9d8add;
+}
+.periwinkle-500 {
+  background-color: #9279d6;
+}
+.periwinkle-600 {
+  background-color: #8161c9;
+}
+.periwinkle-700 {
+  background-color: #7144b7;
+}
+.periwinkle-800 {
+  background-color: #65319a;
+}
+
+/* VIOLET */
+.violet-200 {
+  background-color: #debcf0;
+}
+.violet-300 {
+  background-color: #d1a2e7;
+}
+.violet-400 {
+  background-color: #c78add;
+}
+.violet-500 {
+  background-color: #c179d6;
+}
+.violet-600 {
+  background-color: #b561c9;
+}
+.violet-700 {
+  background-color: #ab44b7;
+}
+.violet-800 {
+  background-color: #99319a;
+}
+
+/* MAGENTA */
+.magenta-200 {
+  background-color: #f0bce8;
+}
+.magenta-300 {
+  background-color: #e7a2db;
+}
+.magenta-400 {
+  background-color: #dd8aca;
+}
+.magenta-500 {
+  background-color: #d679bd;
+}
+.magenta-600 {
+  background-color: #c961a9;
+}
+.magenta-700 {
+  background-color: #b7448a;
+}
+.magenta-800 {
+  background-color: #9a3166;
+}
+
+/* GRADIENTS */
+.gradient-black {
+  background-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.2) 100%
+  );
+}
+.gradient-green {
+  background: linear-gradient(to right, #b9e7a2, #a2e7ae);
+}
+
+.gradient-blue {
+  background: linear-gradient(to right, #a2dbe7, #a2e7ae);
+}
+
+.gradient-yellow {
+  background: linear-gradient(to right, #e7d0a2, #e7ada2);
+}
+
+.gradient-rainbow-100,
+.select-pokemon-inventory.active {
+  background: linear-gradient(
+    to bottom right,
+    #e0dafd 0%,
+    #daf7fd 25%,
+    #e6fdda 50%,
+    #fdf1da 75%,
+    #fddae6 100%
+  );
+}
+
+.gradient-rainbow-100.clickable:hover,
+.select-pokemon-inventory.active:hover {
+  filter: brightness(80%);
+  transition: filter 0.3s;
+}
+
+.gradient-rainbow-200 {
+  background: linear-gradient(
+    to bottom right,
+    #c4bcf0 0%,
+    #bce8f0 25%,
+    #cef0bc 50%,
+    #f0debc 75%,
+    #f0bcce 100%
+  );
+}
+
+/* RADIAL */
+.radial {
+  background-image: url("../assets/visuals/pokedoro_image_bg_radial.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 80% 80%;
+}
+
+.img-container.radial {
+  display: inline-block; /* shrink-wraps to image */
+  position: relative;
+}
+
+/* GRID */
+.background-tile {
+  background-image: url("../assets/visuals/pokedoro_image_background_tile.png");
+  background-repeat: repeat;
+  background-size: 50%;
+  background-position: center;
+}
+
+/*
+  ========================================
+  STROKES
+  ========================================
+*/
+.black-stroke-bottom {
+  border-bottom: 2px solid #050523;
+}
+/* pink stroke */
+.stroke-pink-600 {
+  outline: #c96175 solid 2px;
+}
+.stroke-pink-400 {
+  outline: #dd8aa0 solid 2px;
+}
+/* cyan stroke */
+.stroke-cyan-600 {
+  outline: #61a9c9 solid 2px;
+}
+.stroke-cyan-400 {
+  outline: #8acadd solid 2px;
+}
+/* yellow green stroke */
+.stroke-yellow-green-600 {
+  outline: #75c961 solid 2px;
+}
+.stroke-yellow-green-400 {
+  outline: #a0dd8a solid 2px;
+}
+/* black stroke */
+.stroke-blacka-600 {
+  outline: #6e6e84 solid 2px;
+}
+.stroke-blacka-400 {
+  outline: #9d9db2 solid 2px;
+}
+/* red stroke */
+.stroke-red-600 {
+  outline: #c98161 solid 2px;
+}
+.stroke-red-400 {
+  outline: #dd9e8a solid 2px;
+}
+/* orange stroke */
+.stroke-orange-600 {
+  outline: #c9b561 solid 2px;
+}
+.stroke-orange-400 {
+  outline: #ddc78a solid 2px;
+}
+/* periwinkle stroke */
+.stroke-periwinkle-600 {
+  outline: #8161c9 solid 2px;
+}
+.stroke-periwinkle-400 {
+  outline: #9d8add solid 2px;
+}
+/* gray stroke */
+.stroke-gray-600 {
+  outline: #b4b8c3 solid 2px;
+}
+.stroke-gray-400 {
+  outline: #878c9a solid 2px;
+}
+/* white stroke */
+.stroke-whitea-600 {
+  outline: #bbc7ca solid 2px;
+}
+.stroke-whitea-400 {
+  outline: #d5e0e3 solid 2px;
+}
+/* magenta stroke */
+.stroke-magenta-600 {
+  outline: #c961a9 solid 2px;
+}
+.stroke-magenta-400 {
+  outline: #dd8aca solid 2px;
+}
+/* default stroke */
+.stroke-default-700 {
+  outline: #27275c solid 2px;
+}
+
+/*
+  ========================================
+  FONTS
+  px to em (px * 0.0625)
+  96px = 6em
+  64px = 4em
+  48px = 3em
+  40px = 2.5em
+  32px = 2em
+  24px = 1.4em
+  20px = 1.25em
+  18px = 1.125em
+  16px = 1em
+  12px = 0.75em
+  10px = 0.625em
+  ========================================
+*/
+/* set all base fonts to the following */
+html * {
+  font-family: "VT323", monospace;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.03em;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+}
+
+@media (max-width: 768px) {
+  html * {
+    font-size: 1em;
+  }
+}
+
+nav * {
+  font-size: 0.8335em;
+}
+
+/* HEADERS */
+h1 {
+  font-size: 4em;
+}
+
+h2 {
+  font-size: 2.5em;
+}
+
+h3 {
+  font-size: 2em;
+}
+
+h4 {
+  font-size: 1.4em;
+}
+
+h5 {
+  font-size: 1.25em;
+}
+
+h6 {
+  font-size: 1.125em;
+}
+
+/* paragraphs */
+.timer {
+  font-size: 4em;
+  font-family: "Doto", sans-serif;
+  font-weight: 600;
+  line-height: 150%;
+}
+
+p {
+  font-size: 1.125em;
+  line-height: 150%;
+}
+
+p.xl {
+  font-size: 1.25em;
+}
+
+p.xs {
+  font-size: 0.75em;
+}
+
+/* PARAGRAPH LINKS */
+p a,
+a.blue-700-text {
+  font-size: inherit;
+  text-decoration: underline;
+  color: #4450b7;
+  text-decoration-thickness: 11%;
+  text-underline-offset: 16%;
+}
+
+/* BUTTONS */
+button {
+  font-size: 1.4em;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+}
+
+button.xl {
+  font-size: 2em;
+}
+
+button.xs {
+  font-size: 1em;
+}
+
+/* BUTTON LINKS */
+button a {
+  font-size: inherit;
+  color: inherit;
+  text-transform: inherit;
+}
+
+/* INPUTS */
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+  font-size: 1.125em;
+  line-height: 150%;
+}
+
+label {
+  font-size: 1em;
+  line-height: 120%;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+/*
+  ========================================
+  LAYOUT
+
+  includes:
+  - padding
+  - flex
+  - gap
+  ========================================
+*/
+/* TEXT ALIGN */
+.text-center {
+  text-align: center;
+}
+
+/* FLEX */
+.flex {
+  display: flex;
+}
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+.flex-none {
+  flex: none;
+}
+
+.space-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex-end {
+  display: flex;
+  align-items: flex-end;
+}
+
+.flex-start {
+  display: flex;
+  align-items: flex-start;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.align-center {
+  display: flex;
+  align-items: center;
+}
+
+.justify-center {
+  display: flex;
+  justify-content: center;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center; /* horizontal */
+  align-items: center; /* vertical */
+  min-height: 90vh;
+  width: 100%;
+}
+
+.flex-start-items {
+  align-items: flex-start;
+}
+
+/* GAP */
+.gap-0 {
+  gap: 0px;
+}
+
+.gap-4 {
+  gap: 4px;
+}
+
+.gap-8 {
+  gap: 8px;
+}
+
+.gap-12 {
+  gap: 12px;
+}
+
+.gap-16 {
+  gap: 16px;
+}
+
+.gap-20 {
+  gap: 20px;
+}
+
+.gap-32 {
+  gap: 32px;
+}
+
+.gap-40 {
+  gap: 40px;
+}
+
+.gap-80 {
+  gap: 80px;
+}
+
+.example {
+  width: 1000px;
+  height: 400px;
+}
+
+/* PADDING HORIZONTAL */
+.pad-x-2 {
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+.pad-x-4 {
+  padding-left: 4px;
+  padding-right: 4px;
+}
+.pad-x-8 {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.pad-x-12 {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.pad-x-16 {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+.pad-x-20 {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.pad-x-40 {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.pad-x-48 {
+  padding-left: 48px;
+  padding-right: 48px;
+}
+.pad-x-60 {
+  padding-left: 60px;
+  padding-right: 60px;
+}
+.pad-x-80 {
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+/* PADDING VERTICAL */
+.pad-y-2 {
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+.pad-y-4 {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+.pad-y-8 {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+.pad-y-12 {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+.pad-y-16 {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+.pad-y-20 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.pad-y-40 {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.pad-y-48 {
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+.pad-y-60 {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.pad-y-80 {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+/* RADIUS */
+.radius-4 {
+  border-radius: 4px;
+}
+
+.radius-8 {
+  border-radius: 8px;
+}
+
+.radius-top-right-8 {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+/* WIDTH */
+.width-100vw {
+  width: 100vw;
+}
+
+.width-100 {
+  width: 100%;
+}
+
+.width-80px {
+  width: 80px;
+}
+
+.width-100px {
+  width: 100px;
+}
+
+.width-200px {
+  width: 200px;
+}
+
+.width-360px {
+  width: 360px;
+}
+
+.min-width-300,
+.min-width-300 * {
+  min-width: 300;
+}
+
+.width-600 {
+  width: 600px;
+}
+.width-700 {
+  width: 700px;
+}
+
+.max-width-1200 {
+  max-width: 1200px;
+}
+
+/* HEIGHT */
+.height-100 {
+  height: 100%;
+}
+.height-160px {
+  height: 160px;
+}
+.height-280px {
+  height: 280px;
+}
+.height-360px {
+  height: 360px;
+}
+.height-400px {
+  height: 400px;
+}
+.max-height-204px {
+  height: 204px;
+}
+.max-height-400px {
+  height: 400px;
+}
+
+.height-min-100vh {
+  min-height: 100vh;
+}
+/*
+  ========================================
+  STYLING
+  ========================================
+*/
+
+/* SHADOWS */
+.text-shadow {
+  -webkit-text-stroke: 4px #000000;
+  text-shadow: 1.3px 1.3px #000000;
+  paint-order: stroke fill;
+}
+.icon-shadow {
+  filter: drop-shadow(2px 2px 0 #000);
+}
+.icon-wrapper {
+  filter: drop-shadow(1px 1px 0 #000) drop-shadow(-1px 1px 0 #000)
+    drop-shadow(1px -1px 0 #000) drop-shadow(-1px -1px 0 #000);
+  display: inline-block;
+}
+
+.border-black {
+  border: 1px solid #000000;
+}
+
+/* ICONS */
+.icon {
+  width: 32px;
+  height: 32px;
+  filter: brightness(0%);
+  transition: filter 0.2s ease;
+}
+.icon.light {
+  filter: brightness(10%) invert(1);
+}
+.icon.dark {
+  filter: brightness(0%);
+}
+
+.icon.widget {
+  width: 24px;
+  height: 24px;
+}
+
+.icon.xl {
+  width: 40px;
+  height: 40px;
+}
+
+/* BUTTON BASE*/
+
+button {
+  padding: 12px 12px;
+  color: white;
+  -webkit-text-stroke: 4px #000000;
+  text-shadow: 1.3px 1.3px #000000;
+  border-radius: 8px;
+  paint-order: stroke fill;
+  cursor: pointer;
+}
+
+.icon-btn {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+/* BUTTON UNFILLED VERSION*/
+button.btn-unfilled {
+  color: #cbcbcb;
+}
+
+button.btn-unfilled.active {
+  color: #8acadd;
+}
+
+button.btn-unfilled:hover {
+  color: white;
+  transition: color 0.3s;
+}
+
+/* BUTTON OUTLINE VERSION*/
+button.btn-outline {
+  color: #cbcbcb;
+  border: 3px solid #cbcbcb;
+  box-shadow: 2px 2px 0 #000000;
+}
+
+button.btn-outline:hover {
+  color: white;
+  border-color: white;
+  transition: color 0.3s;
+  transition: border-color 0.3s;
+}
+
+/* BUTTON FILLED VERSION*/
+button.btn-filled {
+  background-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.2) 100%
+  );
+  border: 3px solid #000000;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+button.btn-filled:hover {
+  filter: brightness(80%);
+  transition: filter 0.3s;
+}
+
+/* INPUTS */
+label {
+  color: #828282;
+  text-transform: capitalize;
+}
+
+input {
+  width: 100%;
+  padding: 8px 12px;
+  background-color: white;
+  border: 2px solid #919498;
+  border-radius: 8px;
+}
+
+input:focus {
+  outline-color: #76c1ff;
+}
+
+input::placeholder {
+  color: inherit;
+  opacity: 60%;
+}
+
+/* checkbox input */
+.custom-checkbox input[type="checkbox"] {
+  opacity: 0;
+  position: absolute;
+}
+
+/* Custom image container */
+.custom-checkbox .checkmark {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background: url("../assets/visuals/pokedoro_icon_checkbox_unchecked.svg")
+    no-repeat center center;
+  background-size: contain;
+  vertical-align: middle;
+  margin-right: 12px;
+  cursor: pointer;
+}
+
+/* Change image when checked */
+.custom-checkbox.light input[type="checkbox"]:checked + .checkmark {
+  background-image: url("../assets/visuals/pokedoro_icon_checkbox_checked_light.svg");
+}
+
+.custom-checkbox.dark input[type="checkbox"]:checked + .checkmark {
+  background-image: url("../assets/visuals/pokedoro_icon_checkbox_checked_dark.svg");
+}
+
+/* GLOBAL HOVER EFFECTS */
+.clickable:hover {
+  cursor: pointer;
+}
+/*
+  ========================================
+  SPECIFIC STYLES
+  ========================================
+*/
+.pokemon-pill {
+  font-size: 1em;
+  line-height: 120%;
+}
+
+.pokemon-pill .icon {
+  width: 16px;
+  height: 16px;
+}
+
+.pokemon-pill.active {
+  outline: #828282 solid 3px;
+}
+
+.flip-upsidedown {
+  rotate: 180deg;
+}
+.flip-left {
+  rotate: 90deg;
+}
+
+.logo {
+  width: 128px;
+}
+
+.hero {
+  width: 80%;
+  align-items: center;
+  max-height: 1000px;
+}
+
+.home-img {
+  width: 360px;
+  height: 360px;
+}
+
+.pixel-img {
+  image-rendering: pixelated;
+}
+.profile-img {
+  width: 144px;
+  height: 144px;
+}
+.width-height-48 {
+  width: 48px;
+  height: 48px;
+}
+.width-height-60 {
+  width: 60px;
+  height: 60px;
+}
+.width-height-96 {
+  width: 96px;
+  height: 96px;
+}
+.sprite-container {
+  border-radius: 8px;
+  transition: background-color 0.2s;
+  cursor: pointer;
+}
+
+.icon-small .type-icon-wrapper {
+  width: 12px;
+  height: 12px;
+}
+
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(10, 10, 20, 0.85);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+}
+
+.popup-content {
+  width: 480px;
+}
+
+.pokeball {
+  width: 80px;
+  height: 80px;
+}
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.capture {
+  background-image: url(../assets/visuals/pokedoro_image_bg_grass.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  image-rendering: pixelated;
+}
+
+input[type="range"] {
+  -webkit-appearance: none;
+  border: none;
+  border-radius: 0;
+  width: 100px;
+  height: 20px;
+  margin-left: 20px;
+  padding: 0;
+  background: linear-gradient(to right, #000 0%, #000 100%);
+  background-size: 150px 10px;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 20px;
+  height: 20px;
+  background: white;
+  border: 4px solid #000;
+  position: relative;
+  z-index: 3;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.3);
+}
+
+input[type="range"]::-webkit-slider-thumb:after {
+  content: " ";
+  width: 160px;
+  height: 10px;
+  position: absolute;
+  z-index: 1;
+  right: 20px;
+  top: 5px;
+}
+
+input[type="range"]::-moz-range-track {
+  height: 8px;
+  background: black;
+  border: none;
+}
+
+.select-pokemon-inventory {
+  overflow-y: scroll;
+}
+
+.select-pokemon-inventory button:hover {
+  background-color: rgba(39, 39, 92, 0.3);
+  transition: background-color 0.3s;
+}
+
+.timer-label {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex: 1;
+  padding: 8px 0;
+  border-bottom: 2px solid grey;
+  font-size: 2em;
+}
+
+.timer-label.active {
+  color: white;
+  border-color: white;
+}
+
+.timer-label.inactive {
+  color: grey;
+}
+
+/*
+  ========================================
+  MEDIA QUERIES
+  ========================================
+*/
