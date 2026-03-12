@@ -1,4 +1,4 @@
-# Pokedoro Final Project Part 2
+# Pokedoro
 
 We are here to gamify the Pomodoro study method with Pokemon!
 
